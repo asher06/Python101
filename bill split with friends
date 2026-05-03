@@ -1,0 +1,17 @@
+# Replace ___ with your code
+
+# get input value for total number of friends 
+
+tfri=int(input())
+
+# get input value for bill 
+
+tb=int(input())
+# calculate the tax amount
+tax=tb*20/100
+
+# divide the total bill among friends
+divb=(tax+tb)/tfri
+
+# print the split amount
+print(divb)
