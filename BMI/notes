@@ -1,11 +1,17 @@
-# take float input for weight
-w=float(input())
+Create a program to find the BMI of a person.
 
-# take float input for height
-h=float(input())
+The formula to compute the BMI of a person is:
 
-# calculate BMI
-BMI=w/h**2
+BMI = weight / height**2
+Take a float input for the weight of a person (in kg) and assign it to the weight variable.
+Take a float type input for the height of the person (in meter) and assign it to the height variable.
+Use the formula to calculate the BMI.
+Print the BMI of the person.
+Example
+Test Input
 
-# print the calculated BMI
-print(BMI)
+85.7
+1.73
+Expected Output
+
+28.634434829095525
