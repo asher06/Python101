@@ -1,0 +1,16 @@
+# Replace ___ with your code
+
+# take float input for principal, rate, and time
+p=float(input())
+r=float(input())
+t=float(input())
+
+# calculate the simple interest
+si=p*r*t*0.01
+
+# calculate the final amount
+fa=p+si
+
+# print interest and total_sum in separate lines
+print(si)
+print(fa)
