@@ -1,0 +1,22 @@
+'''You're standing in kuwait. You're a giant. 
+And you want to go to either russia, london egypt  or india.
+You can reach russia by going east then north
+India by going east and south
+Egypt by going west and south
+London will be west and north.
+If you go the same direction twice, you die.'''
+
+dir1=input("input the first direction you want to go; remember you cannot enter the same direction twice or you die")
+dir2=input("input the second direction you want to go; remember you cannot enter the same direction twice or you die")
+if dir1==dir2:
+  print('you died')
+elif(dir1=='east' and dir2=='north') or (dir1=='north' and dir2=='east'):
+  print('you are now in russia')
+elif(dir1=='east' and dir2=='south') or (dir1=='south' and dir2=='east'):
+  print('you are now in india')
+elif(dir1=='west' and dir2=='south') or (dir1=='south' and dir2=='west'):
+  print('you are now in Egypt')
+elif(dir1=='west' and dir2=='north') or (dir1=='north' and dir2=='west'):
+  print('you are now in london')
+else:
+    print("Invalid direction")
